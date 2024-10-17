@@ -12,7 +12,8 @@ Best of all, it fits neatly within Cloudflare’s free tier.
 1. **Deploy the Proxy**  
    Click the button below to deploy directly to Cloudflare Workers:
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/YOURUSERNAME/YOURREPO)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/elliott-diy/Umami-Proxy)
+
 2. **Set Up Your Custom Domain**  
    Once deployed, go to your Cloudflare dashboard, add a custom domain or subdomain (e.g., `analytics.yourdomain.com`), and route it to the Worker you just created.
 

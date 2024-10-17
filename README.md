@@ -35,7 +35,3 @@ Built with ❤️ by [Elliott](https://elliott.diy).
 ## License
 
 This project is open-source under the [MIT License](LICENSE). Feel free to use, modify, and share!
-
----
-
-This version is simpler, more personalized, and has a friendlier tone while maintaining clarity and focus. It emphasizes the ease of use and has your personal touch.

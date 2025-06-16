@@ -2,7 +2,7 @@
 
 # Umami Analytics Proxy
 
-This **simple Cloudflare Workers proxy** helps you bypass AdBlockers by serving Umami Analytics from your own custom domain. AdBlockers often block sites that use the default Umami URL, but with this proxy, you can keep your analytics running smoothly without being flagged.
+This simple Cloudflare Workers proxy helps you bypass AdBlockers by serving Umami Analytics from your own custom domain. AdBlockers often block sites that use the default Umami URL, but with this proxy, you can keep your analytics running smoothly without being flagged.
 
 Best of all, it fits neatly within Cloudflare’s free tier.
 

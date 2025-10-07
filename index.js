@@ -3,7 +3,7 @@ addEventListener('fetch', event => {
 })
 
 async function handleRequest(request) {
-  const url = 'https://analytics.umami.is/script.js'
+  const url = 'https://cloud.umami.is/script.js'
   const response = await fetch(url, {
     headers: {
       'User-Agent': request.headers.get('User-Agent'),

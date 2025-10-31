@@ -10,6 +10,7 @@ async function handleRequest(request) {
     return new Response('User-agent: *\nDisallow: /', {
       headers: {
         'Content-Type': 'text/plain',
+        'Cache-Control': 'public, max-age=86400',
       },
     })
   }

@@ -3,6 +3,18 @@ addEventListener('fetch', event => {
 })
 
 async function handleRequest(request) {
+  const requestUrl = new URL(request.url)
+  
+  // Handle robots.txt endpoint
+  if (requestUrl.pathname === '/robots.txt') {
+    return new Response('User-agent: *\nDisallow: /', {
+      headers: {
+        'Content-Type': 'text/plain',
+      },
+    })
+  }
+  
+  // Handle script.js proxy (default behavior)
   const url = 'https://cloud.umami.is/script.js'
   const response = await fetch(url, {
     headers: {
